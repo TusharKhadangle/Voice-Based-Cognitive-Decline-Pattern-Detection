@@ -1,0 +1,32 @@
+Short Report:
+
+1. Most Insightful Features
+
+Filler Word Ratio: Strong indicator of disfluency (e.g., "uh/um" frequency).
+
+Pause Duration Ratio: Longer pauses correlate with cognitive effort.
+
+Hesitation Count: Direct measure of speech interruptions.
+
+Spectral Centroid Variance: Reflects abnormal pitch fluctuations.
+
+2. ML Methods & Rationale
+
+Isolation Forest: Unsupervised anomaly detection to flag outliers without labeled data.
+
+K-means Clustering: Identified two distinct speech patterns (fluent vs. disfluent).
+
+PCA: Visualized high-dimensional features for interpretability.
+Why? These methods prioritize interpretability and work well with small, unlabeled datasets.
+
+3. Next Steps for Clinical Robustness
+
+Larger Datasets: Include longitudinal data to track decline progression.
+
+Domain Validation: Partner with clinicians to validate features against medical diagnoses.
+
+Multimodal Features: Add neuropsychological test results and biomarkers.
+
+Real-Time Analysis: Develop edge-compatible models for practical screening.
+
+Ethical Safeguards: Address bias and ensure privacy for vulnerable populations.
